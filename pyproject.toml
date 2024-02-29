@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hh-vacancies-diploma"
+version = "0.1.0"
+description = "Diploma project - vacancies from hh"
+authors = ["audioidiom <audioidiom@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+datetime = "^5.4"
+tqdm = "^4.66.2"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
